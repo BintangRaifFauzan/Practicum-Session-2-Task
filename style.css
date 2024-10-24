@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .display img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: ;
+    margin-bottom:20px;
+    object-fit: cover;
+    margin-left: 270px;
+    margin-top: 30px;
+    border: 3px solid  blue;
+  }
+  
+  .profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: ;
+    margin-bottom: 20px;
+  }
+  
+  .about, .projects, .contact {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 20px;
+    width: 600px; /* Sesuaikan lebar sesuai kebutuhan */
+    border-bottom: 10px;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 10;
+  }
+  
+  li {
+    margin-bottom: 20\px;
+  }

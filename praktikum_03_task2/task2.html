@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Font Size & Dark Mode</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Customize Page</h1>
+        <p>This is example paragraph. You can change the font size and switch to dark mode.</p>
+
+        <div class="controls">
+            <label for="fontSizeSelector">Font Size:</label>
+            <select id="fontSizeSelector">
+                <option value="16px">Default</option>
+                <option value="18px">Large</option>
+                <option value="20px">Larger</option>
+                <option value="24px">Largest</option>
+            </select>
+
+            <label class="switch">
+                <input type="checkbox" id="darkModeToggle">
+                <span class="slider"></span>
+            </label>
+            <span>Dark Mode</span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
